@@ -35,12 +35,23 @@ for (var i = 0; i < imagenes.length; i++) {
 //    }
 //     });
 // }
+var contenedor=document.getElementById("imagenes");
+var panda=document.getElementsByClassName("panda");
+var cerrar= document.getElementsByClassName("cerrar");
+var menu= document.getElementById("menu");
 
-var contImage=document.getElementsByClassName("panda")[0];
-var botonCerrar= document.getElementsByClassName("cerrar")[0];
-console.log(botonCerrar[0]);
 
+contenedor.addEventListener("click",function(e){
 
+    if (e.target.tagName =="DIV"){
+      for (var i = 0; i < panda.length; i++) {
+         panda[i].style.display="none";
+         contenedor.style.display="none";
+
+       }
+  }
+
+});
 
 
 
