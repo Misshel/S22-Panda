@@ -1,8 +1,9 @@
 
 *, body{
-  background-color: #1d1a05;
   margin: 0px;
   padding: 0px;
+  color: white;
+  background-color: #1d1a05;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,7 +17,6 @@ header {
   height: 50px;
   width: 100%;
   display: flex;
-
 }
 
 nav{
@@ -24,7 +24,47 @@ nav{
 }
 
 a{
-  color: white;
   display: inline-block;
   margin: 15px;
 }
+
+/*imagenes*/
+#imagenes{
+  box-sizing: border-box;
+  width: 100%;
+  height: 350px;
+  /*position: relative;*/
+  padding-top: 100px;
+  margin: auto 50px;
+}
+
+.panda{
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0px 1%;
+  width: 280px;
+  height: 210px;
+  border: 5px solid;
+  border-color: #595959;
+}
+
+img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+}
+
+div.cerrar{
+  display: inline-block;
+  position: absolute;
+  left: 14px;
+  top: 7px;
+  background: none;
+  cursor:auto;
+}
+/*.panda{
+  display: none;
+}*/
