@@ -39,3 +39,29 @@ for (var i = 0; i < imagenes.length; i++) {
 var contImage=document.getElementsByClassName("panda")[0];
 var botonCerrar= document.getElementsByClassName("cerrar")[0];
 console.log(botonCerrar[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------------------------------------------------------------------
+/*para contenido*/

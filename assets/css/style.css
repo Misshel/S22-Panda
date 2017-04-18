@@ -7,7 +7,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-header, nav, a{
+header, nav, a, .menu{
   background-color: #ca3c25;
 }
 
@@ -68,3 +68,72 @@ div.cerrar{
 /*.panda{
   display: none;
 }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------
+#menu{
+  text-align: center;
+}
+.menu{
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+      margin: auto 10px;
+}
+
+#contenido{
+      margin-top: 28px;
+      text-align: center;
+}
+
+.contenido{
+  display: inline-block;
+  margin: auto 30px;
+}
+
+p{
+  width: 500px;
+  height: 100px;
+  text-align: justify;
+}
